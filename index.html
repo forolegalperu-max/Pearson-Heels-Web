@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pearson Heels — Stilettos que hacen historia</title>
+<meta name="description" content="Catálogo Pearson Heels: stilettos, flats y baletas Mary Jane. Compra fácil por WhatsApp y Yape/Plin.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,500;1,600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="#inicio" class="wordmark" aria-label="Pearson Heels — Inicio">
+      <span class="wordmark-top">PEARSON</span>
+      <span class="wordmark-bottom"><em>Heels</em></span>
+    </a>
+    <nav class="mainnav" aria-label="Navegación principal">
+      <a href="#catalogo">Catálogo</a>
+      <a href="#tallas">Guía de tallas</a>
+      <a href="#proceso">Cómo comprar</a>
+      <a href="#faq">Preguntas</a>
+      <a href="#contacto" class="nav-cta">Contáctanos</a>
+    </nav>
+    <button class="burger" id="burgerBtn" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <nav class="mobilenav" id="mobileNav" aria-label="Navegación móvil">
+    <a href="#catalogo">Catálogo</a>
+    <a href="#tallas">Guía de tallas</a>
+    <a href="#proceso">Cómo comprar</a>
+    <a href="#faq">Preguntas</a>
+    <a href="#contacto">Contáctanos</a>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section id="inicio" class="hero">
+    <div class="hero-text">
+      <p class="eyebrow">Colección 2026 · Hecho para pisar fuerte</p>
+      <h1>El taco que <em>sí</em><br>te acompaña<br>todo el día.</h1>
+      <p class="hero-sub">Stilettos, flats y Mary Jane en biocuero, con plantilla
+        extra-confort y suela antideslizante. Elige tu modelo, escríbenos
+        y te lo llevamos a la puerta.</p>
+      <div class="hero-actions">
+        <a href="#catalogo" class="btn btn-gold">Ver catálogo</a>
+        <a href="#tallas" class="btn btn-outline">Guía de tallas</a>
+      </div>
+    </div>
+    <div class="hero-media">
+      <img src="hero-model.jpg" alt="Modelo luciendo un stiletto Pearson Heels" loading="eager">
+      <div class="hero-frame"></div>
+    </div>
+  </section>
+
+  <!-- CATALOGO -->
+  <section id="catalogo" class="section">
+    <div class="section-head">
+      <p class="eyebrow">Catálogo completo</p>
+      <h2>Encuentra tu próximo favorito</h2>
+    </div>
+
+    <div class="filterbar" id="filterBar" role="tablist" aria-label="Filtrar por línea">
+      <button class="chip is-active" data-filter="Todos">Todos</button>
+      <button class="chip" data-filter="Kitten">Kitten</button>
+      <button class="chip" data-filter="Dolce">Dolce</button>
+      <button class="chip" data-filter="Flat">Flat</button>
+      <button class="chip" data-filter="Mary Jane">Mary Jane</button>
+    </div>
+
+    <div class="catalog-grid" id="catalogGrid"><!-- las tarjetas se generan con JS --></div>
+  </section>
+
+  <!-- GUIA DE TALLAS -->
+  <section id="tallas" class="section section-alt">
+    <div class="section-head">
+      <p class="eyebrow">Antes de elegir</p>
+      <h2>Guía de tallas</h2>
+      <p class="section-sub">Las tallas son exactas. Si tienes el empeine ancho,
+        te recomendamos elegir una talla más.</p>
+    </div>
+    <div class="sizetable-wrap">
+      <table class="sizetable">
+        <thead><tr><th>Talla</th><th>Medida del pie</th></tr></thead>
+        <tbody>
+          <tr><td>35</td><td>21 cm</td></tr>
+          <tr><td>36</td><td>22 cm</td></tr>
+          <tr><td>37</td><td>23 cm</td></tr>
+          <tr><td>38</td><td>24 cm</td></tr>
+          <tr><td>39</td><td>25 cm</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- PROCESO DE COMPRA -->
+  <section id="proceso" class="section">
+    <div class="section-head">
+      <p class="eyebrow">Simple, directo, sin vueltas</p>
+      <h2>Cómo comprar</h2>
+    </div>
+    <ol class="steps">
+      <li>
+        <span class="step-num">01</span>
+        <h3>Elige tu modelo</h3>
+        <p>Toca "Comprar" en la ficha del producto y te abrimos WhatsApp
+          con el modelo ya escrito, listo para enviar.</p>
+      </li>
+      <li>
+        <span class="step-num">02</span>
+        <h3>Realiza el pago</h3>
+        <p>Te compartimos los datos de Yape o Plin. Pagas y nos mandas
+          la captura de pantalla por el mismo chat.</p>
+      </li>
+      <li>
+        <span class="step-num">03</span>
+        <h3>Confirma tus datos</h3>
+        <p>Te pedimos nombre, dirección y talla para preparar tu envío
+          sin errores.</p>
+      </li>
+      <li>
+        <span class="step-num">04</span>
+        <h3>Recibe tu pedido</h3>
+        <p>Tu Pearson Heels llega en 2 a 3 días hábiles a la puerta de
+          tu casa.</p>
+      </li>
+    </ol>
+  </section>
+
+  <!-- POLITICAS / FAQ -->
+  <section id="faq" class="section section-alt">
+    <div class="section-head">
+      <p class="eyebrow">Para comprar tranquila</p>
+      <h2>Preguntas frecuentes</h2>
+    </div>
+    <div class="accordion">
+      <details>
+        <summary>¿Cómo funciono los cambios?</summary>
+        <p>Puedes solicitar un cambio hasta 2 días después de recibir tu
+          producto. Debe estar sin uso, limpio, sin daños y en su empaque
+          original. Los costos de envío de ida y vuelta los asume la clienta,
+          y el cambio aplica por talla.</p>
+      </details>
+      <details>
+        <summary>¿Aceptan devoluciones?</summary>
+        <p>Las devoluciones solo aplican por defecto de fábrica. Una vez
+          evaluado y aprobado el caso, se realiza el cambio o la devolución
+          del monto. No se hacen devoluciones por talla, color o decisiones
+          personales.</p>
+      </details>
+      <details>
+        <summary>¿Los productos en promoción tienen cambio?</summary>
+        <p>Los productos en promoción, descuento o liquidación no aplican a
+          cambios. Por eso es importante revisar bien la guía de tallas antes
+          de finalizar tu compra.</p>
+      </details>
+      <details>
+        <summary>¿Cuánto demora mi pedido?</summary>
+        <p>Una vez confirmado el pago y tus datos, tu pedido llega en 2 a 3
+          días hábiles.</p>
+      </details>
+      <details>
+        <summary>¿Cómo pago?</summary>
+        <p>Por ahora aceptamos pagos vía Yape o Plin. Nos envías la captura
+          de tu pago por WhatsApp y coordinamos el envío.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="section contact">
+    <div class="contact-card">
+      <p class="eyebrow">¿Tienes dudas antes de comprar?</p>
+      <h2>Escríbenos, respondemos rápido</h2>
+      <p class="section-sub">Resolvemos tus dudas de talla, color o stock
+        directamente por WhatsApp o Instagram.</p>
+      <div class="contact-actions">
+        <a id="whatsappLink" href="#" target="_blank" rel="noopener" class="btn btn-gold">WhatsApp +51 930 425 659</a>
+        <a href="https://instagram.com/pearsonheelsperu" target="_blank" rel="noopener" class="btn btn-outline">@pearsonheelsperu</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="sitefooter">
+  <div class="footer-inner">
+    <div class="wordmark small">
+      <span class="wordmark-top">PEARSON</span>
+      <span class="wordmark-bottom"><em>Heels</em></span>
+    </div>
+    <p>© <span id="year"></span> Pearson Heels. Todos los derechos reservados.</p>
+    <div class="footer-links">
+      <a href="https://instagram.com/pearsonheelsperu" target="_blank" rel="noopener">Instagram</a>
+      <a id="whatsappFooter" href="#" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  </div>
+</footer>
+
+<script src="products-data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

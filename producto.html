@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pearson Heels — Ficha de producto</title>
+<meta name="description" content="Detalle de modelo Pearson Heels: fotos, tallas y compra por WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,500;1,600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="index.html" class="wordmark" aria-label="Pearson Heels — Inicio">
+      <span class="wordmark-top">PEARSON</span>
+      <span class="wordmark-bottom"><em>Heels</em></span>
+    </a>
+    <nav class="mainnav" aria-label="Navegación principal">
+      <a href="index.html#catalogo">Catálogo</a>
+      <a href="index.html#tallas">Guía de tallas</a>
+      <a href="index.html#proceso">Cómo comprar</a>
+      <a href="index.html#faq">Preguntas</a>
+      <a href="index.html#contacto" class="nav-cta">Contáctanos</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="section product-page">
+    <a href="index.html#catalogo" class="back-link">&larr; Volver al catálogo</a>
+
+    <div id="productRoot" class="product-layout"><!-- se llena con JS --></div>
+
+    <div id="notFound" class="not-found" hidden>
+      <p class="eyebrow">Ups</p>
+      <h2>No encontramos ese modelo</h2>
+      <p class="section-sub">Puede que el link esté incompleto. Vuelve al catálogo para elegir un modelo.</p>
+      <a href="index.html#catalogo" class="btn btn-gold" style="margin-top:24px;">Ver catálogo</a>
+    </div>
+  </section>
+</main>
+
+<footer class="sitefooter">
+  <div class="footer-inner">
+    <div class="wordmark small">
+      <span class="wordmark-top">PEARSON</span>
+      <span class="wordmark-bottom"><em>Heels</em></span>
+    </div>
+    <p>© <span id="year"></span> Pearson Heels. Todos los derechos reservados.</p>
+    <div class="footer-links">
+      <a href="https://instagram.com/pearsonheelsperu" target="_blank" rel="noopener">Instagram</a>
+      <a id="whatsappFooter" href="#" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Cerrar">&times;</button>
+  <div class="lightbox-stage">
+    <img id="lightboxImg" src="" alt="">
+  </div>
+  <p class="lightbox-caption" id="lightboxCaption"></p>
+</div>
+
+<script src="products-data.js"></script>
+<script src="producto.js"></script>
+</body>
+</html>
